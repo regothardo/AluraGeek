@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/adicionar_produto.css">
+	<link rel="stylesheet" href="./assets/css/cabecalho_rodape.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<title>Alura Geek - Adicionar Produto</title>
+</head>
+<body>
+	<header class="cabecalho">
+
+		<div class="cabecalho__pesquisa">
+			<a href="index.html" class="link__home">
+				<img src="./assets/img/logo.png" alt="Logo cabeçalho alura Geek" class="cabecalho__logo">
+			</a>
+			<div class="cabecalho__campo-pesquisa">	
+				<input type="text" class="cabecalho__campo-pesquisa___texto" placeholder="O que deseja encontrar?">
+				<img src="./assets/img/vector.png" alt="Imagem lupa Pesquisa" class="cabecalho__pesquisa__imagem">
+			</div> 
+		</div>
+		<a href="#" class="cabecalho__link">
+			<button class="cabecalho__botao">Menu Administrador</button>
+		</a>
+		<img src="./assets/img/vector.png" alt="Imagem lupa pesquisa" class="cabecalho__lupa">
+	</header>
+	<main class="principal">
+		<section class="adicionar">
+			<h1 class="adicionar__titulo">Adicionar novo produto</h1>
+			<div class="adicionar__imagem">
+				<div class="imagem__nova">
+					<i class="icone__imagem"></i>
+					<p class="imagem__texto">Arraste para adicionar uma imagem para o produto</p>
+				</div>
+				<p class="imagem_opcao">ou</p>
+				<button class="botao__busca busca__tablet">Procure no seu tablet</button>
+				<button class="botao__busca busca__computador">Procure no seu computador</button>
+			</div>
+			<div class=campo__container>
+				<label for="nome" class="	rotulo__campo">Nome do Produto</label>
+				<input name="nome" type="text" class="campo__produto">
+			</div>
+			<div class="campo__container preco__container">
+				<label for="preco" class="rotulo__campo">Preço do Produto</label>
+				<input name="preco" type="text" class="campo__produto">
+			</div>
+			<textarea  class="descricao__produto" name="descricao" id="produto__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
+			<button class="adicionar__produto">Adicionar Produto</button>
+
+		</section>
+	</main>
+	<footer class="rodape">
+		<section class="rodape__contato">
+			<img src="./assets/img/logo.png" alt="Logo rodapé AluraGeek" class="rodape__logo">
+			<ul class="rodape__lista">
+				<li class="rodape__lista___item"><a href="#">Quem somos nós</a></li>
+				<li class="rodape__lista___item"><a href="#">Política de privacidade</a></li>
+				<li class="rodape__lista___item"><a href="#">Programa fidelidade</a></li>
+				<li class="rodape__lista___item"><a href="#">Nossas lojas</a></li>
+				<li class="rodape__lista___item"><a href="#">Quero ser franqueado</a></li>
+				<li class="rodape__lista___item"><a href="#">Anuncie aqui</a></li>
+			</ul>
+			<section class="rodape__fale-conosco">
+				<h4 class="rodape__fale-conosco__titulo">Fale Conosco</h4>
+				<label class="rodape__fale-conosco--nome"for="nome">Nome</label>
+				<input id="nome" type="text" class="FaleConosco__nome">
+				<input type="textarea" class="faleConosco__mensagem" placeholder="Escreva sua mensagem">
+				<submit class="faleConosco__enviar">Enviar Mensagem</submit>
+			</section>
+		</section>
+		<section class="rodape__desenvolvido">
+			<p class="rodape__desenvolvido-nome">Desenvolvido por Renata Gothardo Vieira Ramos</p>
+			<p class="rodape__desenvolvido-ano">2021</p>
+			
+		</section>
+		
+	</footer>
+</body>
+</html>

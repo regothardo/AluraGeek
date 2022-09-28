@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/login.css">
+	<link rel="stylesheet" href="./assets/css/cabecalho_rodape.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<title>Login</title>
+</head>
+<body>
+	<header class="cabecalho">
+
+		<div class="cabecalho__pesquisa">
+			<a href="index.html" class="link__home" arial-label="Ir para Homepage">
+				<img src="./assets/img/logo.png" alt="Logo cabeçalho alura Geek" class="cabecalho__logo">
+			</a>
+			<div class="cabecalho__campo-pesquisa">	
+				<input type="text" class="cabecalho__campo-pesquisa___texto" placeholder="O que deseja encontrar?">
+				<img src="./assets/img/vector.png" alt="Imagem lupa Pesquisa" class="cabecalho__pesquisa__imagem">
+			</div> 
+		</div>
+		<button class="cabecalho__botao">Login</button>
+		<img src="./assets/img/vector.png" alt="Imagem lupa pesquisa" class="cabecalho__lupa">
+	</header>
+	<main class="login__principal">
+		<form class="sessao">
+			<h1 class="sessao__titulo">Iniciar Sessão</h1>
+			<input type="email" class="sessao__email sessao__campos" placeholder="Escreva seu email" required>
+			<input type="password" placeholder="Senha" class="sessao__senha sessao__campos" required>
+			<button class="sessao__botao">Entrar</button>
+		</form>
+	</main>
+	<footer class="rodape">
+		<section class="rodape__contato">
+			<img src="./assets/img/logo.png" alt="Logo rodapé AluraGeek" class="rodape__logo">
+			<ul class="rodape__lista">
+				<li class="rodape__lista___item"><a href="#">Quem somos nós</a></li>
+				<li class="rodape__lista___item"><a href="#">Política de privacidade</a></li>
+				<li class="rodape__lista___item"><a href="#">Programa fidelidade</a></li>
+				<li class="rodape__lista___item"><a href="#">Nossas lojas</a></li>
+				<li class="rodape__lista___item"><a href="#">Quero ser franqueado</a></li>
+				<li class="rodape__lista___item"><a href="#">Anuncie aqui</a></li>
+			</ul>
+			<section class="rodape__fale-conosco">
+				<h4 class="rodape__fale-conosco__titulo">Fale Conosco</h4>
+				<label class="rodape__fale-conosco--nome"for="nome">Nome</label>
+				<input id="nome" type="text" class="FaleConosco__nome">
+				<input type="textarea" class="faleConosco__mensagem" placeholder="Escreva sua mensagem">
+				<submit class="faleConosco__enviar">Enviar Mensagem</submit>
+			</section>
+		</section>
+		<section class="rodape__desenvolvido">
+			<p class="rodape__desenvolvido-nome">Desenvolvido por Renata Gothardo Vieira Ramos</p>
+			<p class="rodape__desenvolvido-ano">2021</p>
+			
+		</section>
+		
+	</footer>
+	
+</body>
+</html>

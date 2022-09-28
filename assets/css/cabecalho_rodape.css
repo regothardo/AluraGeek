@@ -1,0 +1,221 @@
+body{
+	background-color:#FFFFFF;
+	font-family:"Raleway","icones", sans-serif;
+	
+}
+
+@font-face{
+	font-family: 'icones';
+    src: url(../font/IcoMoon-Free.ttf);
+}
+
+.cabecalho{
+	height:56px;
+	padding:8px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cabecalho__logo{
+	width:100px;
+}
+
+/*criar campo pesquisa por meio de div*/
+.cabecalho__campo-pesquisa{
+	display:none;
+}
+
+.cabecalho__campo-pesquisa___texto{
+	background-color: #F5F5F5;
+	outline: none; /*tirar destaque do campo*/
+	padding:6px 8px;
+	width: 81%;
+}
+
+.cabecalho__pesquisa__imagem{
+	width: 24px;
+	position:absolute;
+	top:50%; /*para centralizar verticalmente*/
+	left:88%; /*para jogar o elemento no canto*/
+	transform:translateY(-50%);/*para centralizar verticalmente*/
+}
+
+.cabecalho__botao{
+	width:fit-content;
+	padding:12px 47.5px;
+	border:1px solid #2A7AE4;
+	position: relative;
+	box-sizing: border-box;
+	color:#2A7AE4;
+	font-size: 16px;
+}
+
+.cabecalho__lupa{
+	width:24px;
+}
+
+.rodape__lista___item{
+	padding-bottom: 14px;
+}
+
+.rodape__contato{
+	background-color: #EAF2FD;
+	padding:16px;
+	text-align: center;
+	
+}
+
+.rodape__fale-conosco__titulo{
+		font-weight: bold;
+		text-align: start;
+		position: relative;
+		top:22px;
+}
+
+.rodape__fale-conosco--nome{
+	text-align: left;
+	position:relative;
+	left:2px;
+	top:28px;
+}
+
+.FaleConosco__nome{
+	font-size: 16px;
+	height:56px;
+	padding-top: 22px;
+	box-sizing: border-box;
+}
+
+.rodape__fale-conosco{
+	display:flex;
+	flex-direction: column;
+	gap:8px;
+}
+
+.faleConosco__mensagem{
+	height:82px;
+}
+
+.faleConosco__enviar{
+	width:143px;
+	padding:16px;
+	background-color: #2A7AE4;
+	color:#FFFFFF;
+
+}
+
+.rodape__desenvolvido{
+	padding:32px;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px){
+	.cabecalho{
+		height:72px;
+		padding:16px;
+	}
+
+	.cabecalho__pesquisa{
+		display: flex;
+		align-items:center;
+		column-gap:2em;
+	}
+
+/*criar campo pesquisa por meio de div*/
+	.cabecalho__campo-pesquisa{
+		width: 329px;
+		padding:6px 8px;
+		background-color: #F5F5F5;
+		border-radius: 20px;
+		display:flex;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	
+	.cabecalho__botao{
+		padding:12px 64px;
+	}
+
+	.cabecalho__lupa{
+		display: none;
+	}
+	.rodape__contato{
+		padding:32px;
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows:repeat(2,auto);
+		grid-row-gap: 8px;
+	}
+
+	.rodape__logo{
+		height: 51px;
+		/*margin-left: auto;*/
+		margin-right: auto;
+	}
+
+	.rodape__lista{
+		grid-column: 1;
+		text-align:start;
+	}
+
+	.rodape__lista___item{
+		padding-bottom:20px;
+	}
+
+	.rodape__fale-conosco{
+		grid-row: 1/3;
+		grid-column: 2;
+	}
+
+}
+ 
+
+ @media screen and (min-width: 1440px){
+	
+	.cabecalho{
+		height:115px;
+		padding:0% 10%;
+	}
+
+	.cabecalho__logo{
+		width:176px;
+	}
+
+	.rodape__contato{
+		padding:4% 10%;
+		display:grid;
+		grid-template-columns: repeat(3,1fr);
+	}
+
+	.rodape__logo{
+		grid-column:1;
+	}
+
+	.rodape__lista{
+		grid-column:2;
+	}
+
+	.rodape__fale-conosco{
+		grid-column:3;
+		display:flex;
+		flex-direction: column;
+		gap:8px;
+	}
+
+	.rodape__fale-conosco--nome{
+		position: relative;
+		font-size:14px;
+	}
+
+	.FaleConosco__nome{
+		padding-top: 18px;
+		box-sizing: border-box;
+	}
+
+	.faleConosco__mensagem{
+		width:560px;
+		height:82px;
+	}
+}
