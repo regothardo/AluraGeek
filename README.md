@@ -12,7 +12,8 @@
 
 <div align="center">
 
-![Imagem do site da AluraGeek Mobile](./layouts/alurageek-mobile.png)
+<img src="https://github.com/regothardo/AluraGeek/blob/cbabcefb59b5c2a189843aa7280655723867b52e/Layout/AluraGeek_Mobile.png" with="720" height="1515">
+
 
 </div>
 
@@ -20,15 +21,18 @@
 
 <h2 align="center"> Imagem da página Tablet </h2>
 <br>
-
-![Imagem do site da Alura Geek Tablet](./layouts/alurageek-tablet.png)
+<div align="center">
+<img src="https://github.com/regothardo/AluraGeek/blob/cbabcefb59b5c2a189843aa7280655723867b52e/Layout/AluraGeek_Tablet.png" with="384" height="982">
+</div>
 
 <br>
 
 <h2 align="center"> Imagem da página Desktop </h2>
 <br>
 
-![Imagem do site da Alura Geek Desktop](./layouts/alurageek-desktop.png)
+<div align="center">
+<img src="https://github.com/regothardo/AluraGeek/blob/cbabcefb59b5c2a189843aa7280655723867b52e/Layout/AluraGeek_Desktop.png" with="720" height="1056">
+</div>
 
 <br>
 
