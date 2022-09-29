@@ -110,6 +110,10 @@ body{
 	text-align: center;
 }
 
+.sombreado{
+	box-shadow: 0px 1px 1px rgb(0 0 0 / 20%);
+}
+
 @media screen and (min-width: 768px){
 	.cabecalho{
 		height:72px;
