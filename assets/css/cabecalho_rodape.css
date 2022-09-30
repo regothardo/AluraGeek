@@ -9,6 +9,10 @@ body{
     src: url(../font/IcoMoon-Free.ttf);
 }
 
+.cursor__seta{
+	cursor:pointer;
+}
+
 .cabecalho{
 	height:56px;
 	padding:8px;
@@ -51,8 +55,11 @@ body{
 	font-size: 16px;
 }
 
-.cabecalho__lupa{
-	width:24px;
+.cabecalho__lupa::before{
+	content:"\e986";
+	font-size:24px;
+	color: black;
+	
 }
 
 .rodape__lista___item{
