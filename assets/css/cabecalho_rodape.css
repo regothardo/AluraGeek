@@ -15,10 +15,14 @@ body{
 
 .cabecalho{
 	height:56px;
-	padding:8px;
+	padding:16px;
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.cabecalho__adm{
+	gap: 19px;
 }
 
 .cabecalho__logo{
@@ -123,8 +127,7 @@ body{
 
 @media screen and (min-width: 768px){
 	.cabecalho{
-		height:72px;
-		padding:16px;
+		padding:16px 32px;
 	}
 
 	.cabecalho__pesquisa{
@@ -133,7 +136,7 @@ body{
 		column-gap:2em;
 	}
 
-/*criar campo pesquisa por meio de div*/
+	/*criar campo pesquisa por meio de div*/
 	.cabecalho__campo-pesquisa{
 		width: 329px;
 		padding:6px 8px;
@@ -186,8 +189,7 @@ body{
  @media screen and (min-width: 1440px){
 	
 	.cabecalho{
-		height:115px;
-		padding:0% 10%;
+		padding:2em 9.5em;
 	}
 
 	.cabecalho__logo{
@@ -230,3 +232,12 @@ body{
 		height:82px;
 	}
 }
+
+.cabecalho__botao__adm{
+	padding: 12px 16px;
+	font-size:14px;
+}
+
+
+
+
