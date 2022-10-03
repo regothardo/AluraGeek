@@ -14,7 +14,7 @@
 <body>
 	<header class="cabecalho">
 
-		<div class="cabecalho__pesquisa">
+		<div class="cabecalho__pesquisa cabecalho__adm">
 			<a href="index.html" class="link__home">
 				<img src="./assets/img/logo.png" alt="Logo cabeçalho alura Geek" class="cabecalho__logo">
 			</a>
@@ -24,7 +24,7 @@
 			</div> 
 		</div>
 		<a href="#" class="cabecalho__link">
-			<button class="cabecalho__botao cursor__seta">Menu Administrador</button>
+			<button class="cabecalho__botao cursor__seta cabecalho__botao__adm">Menu Administrador</button>
 		</a>
 		<i class="cabecalho__lupa"></i>
 	</header>
@@ -41,14 +41,14 @@
 				<button class="botao__busca busca__computador cursor__seta">Procure no seu computador</button>
 			</div>
 			<div class=campo__container>
-				<label for="nome" class="	rotulo__campo">Nome do Produto</label>
-				<input name="nome" type="text" class="campo__produto">
+				<label for="nome" class="rotulo__campo">Nome do Produto</label>
+				<input name="nome" type="text" class="campo__produto sombreado">
 			</div>
 			<div class="campo__container preco__container">
 				<label for="preco" class="rotulo__campo">Preço do Produto</label>
-				<input name="preco" type="text" class="campo__produto">
+				<input name="preco" type="text" class="campo__produto sombreado">
 			</div>
-			<textarea  class="descricao__produto" name="descricao" id="produto__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
+			<textarea  class="descricao__produto sombreado" name="descricao" id="produto__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
 			<button class="adicionar__produto cursor__seta">Adicionar Produto</button>
 
 		</section>
