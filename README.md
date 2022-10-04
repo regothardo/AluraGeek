@@ -54,7 +54,7 @@
 <h2 align="center">  Status do Projeto </h2>
 <br>
 <b>- 1ª semana: </b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-Concluído-brightgreen">
 Desenvolvimento da página inicial do e-commerce de maneira estática e responsiva utilizando HTML e CSS.<br><br>
 Na página inicial deve conter:<br><br>
    - Um botão de Iniciar Sessão e buscador de produtos oferecidos pela empresa;<br>
@@ -64,13 +64,13 @@ Na página inicial deve conter:<br><br>
 
 <br>
 <b>- 2ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-yellow">
 <br>A definir<br><br>
 <b>- 3ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-yellow">
 <br>A definir<br><br>
 <b>- 4ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-brightgreen">
+<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-yellow">
 <br>A definir<br><br>
 <br>
          
