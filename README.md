@@ -56,16 +56,37 @@
 <b>- 1ª semana: </b>
 <img src="https://img.shields.io/badge/STATUS-Concluído-brightgreen">
 Desenvolvimento da página inicial do e-commerce de maneira estática e responsiva utilizando HTML e CSS.<br><br>
-Na página inicial deve conter:<br><br>
-   - Um botão de Iniciar Sessão e buscador de produtos oferecidos pela empresa;<br>
-   - Banner que contenha descontos, promoções, ou informações relevantes no momento que o site está no ar;<br>
-   - Galeria com as informações dos produtos separadas por tipo e um link que leva até a página de descrição do produto;<br>
-   - Rodapé com informações da loja e formulário para contato e envio de mensagem.<br>
+Na página inicial deve conter:<br>
+ - Um botão de Iniciar Sessão e buscador de produtos oferecidos pela empresa;<br>
+ - Banner que contenha descontos, promoções, ou informações relevantes no momento que o site está no ar;<br>
+ - Galeria com as informações dos produtos separadas por tipo e um link que leva até a página de descrição do produto;<br>
+ - Rodapé com informações da loja e formulário para contato e envio de mensagem.<br>
 
 <br>
 <b>- 2ª Semana:</b>
-<img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-yellow">
-<br>A definir<br><br>
+<img src="https://img.shields.io/badge/STATUS-Concluído-brightgreen">
+Desenvolvimento das demais páginas do e-commerce de maneira estática e responsiva utilizando HTML e CSS.<br>
+
+As páginas desenvolvidas foram as descritas a seguir, compostas pelos seguintes recursos:<br>
+
+- login.html<br>
+	Com campos de inserção de e-mail, senha e botão para entrar no perfil registrado pelo usuário/administrador;<br>
+- produto.html<br>
+	Com imagem, descrição e informações detalhadas de cada produto, além de uma seção com produtos similares para o usuário navegar, se interessar;<br>
+
+- produtos.html<br>
+	
+	Com imagens, descrições e preços de todos os produtos presentes no e-commerce;<br>
+	Criação do botão "Adicionar Produto", o qual tem a função de redirecionar o usuário para a página de adição de produtos, caso seja administrador do site;<br>
+
+- adicionar_produto.html<br>
+
+	Com campos para inserção de imagens ou busca pelo dispositivo utilizado (mobile, tablet ou desktop), dos nomes, preços e descrições dos produtos;<br>
+	Criação do botão "Adicionar Produto" para efetivar o cadastro do produto inserido no site pelo administrador;<br>
+
+<br>
+	Todas elas possuem cabeçalho com buscador de produtos oferecidos pela empresa e rodapé com informações da loja e formulário para conato e envio de mensagem;<br>
+<br>
 <b>- 3ª Semana:</b>
 <img src="https://img.shields.io/badge/STATUS-Em%20Desenvolvimento-yellow">
 <br>A definir<br><br>
