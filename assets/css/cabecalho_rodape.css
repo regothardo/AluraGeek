@@ -89,12 +89,15 @@ body{
 	position:relative;
 	left:2px;
 	top:28px;
+	font-size:12px;
+	color:#A2A2A2;
+	padding-left:12px;
 }
 
 .FaleConosco__nome{
 	font-size: 16px;
 	height:56px;
-	padding-top: 22px;
+	padding: 22px 12px 0 12px;
 	box-sizing: border-box;
 }
 
@@ -105,7 +108,13 @@ body{
 }
 
 .faleConosco__mensagem{
-	height:82px;
+	padding:16px 12px;
+	margin-top:0.5em;
+	
+}
+
+.faleConosco__mensagem::placeholder{
+	color:#A2A2A2;
 }
 
 .faleConosco__enviar{

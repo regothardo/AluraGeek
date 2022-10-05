@@ -89,7 +89,7 @@
 }
 
 @media screen and (min-width: 1440px){
-
+	
 	.sessao__produtos{
 		grid-template-columns: repeat(6,auto);
 		padding: 0.8rem 9rem;
