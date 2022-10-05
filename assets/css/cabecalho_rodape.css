@@ -1,5 +1,5 @@
 body{
-	background-color:#FFFFFF;
+	background-color:var(--branco);
 	font-family:"Raleway","icones", sans-serif;
 	
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .cabecalho__campo-pesquisa___texto{
-	background-color: #F5F5F5;
+	background-color: var(--fundo-principal);
 	outline: none; /*tirar destaque do campo*/
 	padding:6px 8px;
 	width: 81%;
@@ -52,10 +52,10 @@ body{
 .cabecalho__botao{
 	width:fit-content;
 	padding:12px 47.5px;
-	border:1px solid #2A7AE4;
+	border:1px solid var(--fonte-botao-contorno);
 	position: relative;
 	box-sizing: border-box;
-	color:#2A7AE4;
+	color:var(--fonte-botao-contorno);
 	font-size: 16px;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 .rodape__contato{
-	background-color: #EAF2FD;
+	background-color: var(--fundo-rodape);
 	padding:16px;
 	text-align: center;
 	
@@ -90,7 +90,7 @@ body{
 	left:2px;
 	top:28px;
 	font-size:12px;
-	color:#A2A2A2;
+	color:var(--rotulo-placehold);
 	padding-left:12px;
 }
 
@@ -114,14 +114,14 @@ body{
 }
 
 .faleConosco__mensagem::placeholder{
-	color:#A2A2A2;
+	color:var(--rotulo-placehold);
 }
 
 .faleConosco__enviar{
 	width:143px;
 	padding:16px;
-	background-color: #2A7AE4;
-	color:#FFFFFF;
+	background-color: var(--fonte-botao-contorno);
+	color:var(--branco);
 
 }
 
@@ -149,7 +149,7 @@ body{
 	.cabecalho__campo-pesquisa{
 		width: 329px;
 		padding:6px 8px;
-		background-color: #F5F5F5;
+		background-color: var(--fundo-principal);
 		border-radius: 20px;
 		display:flex;
 		justify-content: space-between;

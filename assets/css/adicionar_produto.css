@@ -1,5 +1,5 @@
 .principal{
-	background-color: #f5f5f5;
+	background-color: var(--fundo-principal);
 }
 
 .adicionar{
@@ -14,8 +14,8 @@
 }
 
 .imagem__nova{
-	background-color: #ffffff;
-	border:dashed 3px #c8c8c8;
+	background-color: var(--branco);
+	border:dashed 3px var(--pontilhado);
 	color:#a2a2a2;
 	font-size:1rem;
 	padding:2rem;
@@ -48,7 +48,7 @@
 	position:absolute;
 	top:0.5rem;
 	left:0.75rem;
-	color:#a2a2a2;
+	color:var(--rotulo-placehold);
 	font-size:12px;
 	
 }
@@ -64,13 +64,13 @@
 }
 
 .descricao__produto::placeholder{
-	color: #a2a2a2;
+	color: var(--rotulo-placehold);
 }
 
 .adicionar__produto{
 	padding:1rem;
-	background-color: #2a7ae4;
-	color:#ffffff;
+	background-color: var(--fonte-botao-contorno);
+	color:var(--branco);
 }
 
 @media screen and (min-width:768px){
@@ -106,9 +106,9 @@
 	}
 
 	.botao__busca{
-		border:1px solid #2a7ae4;
-		color:#2a7ae4;
-		padding:16px;
+		border:1px solid var(--fonte-botao-contorno);
+		color:var(--fonte-botao-contorno);
+		padding:1em;
 	}
 
 	.campo__container{

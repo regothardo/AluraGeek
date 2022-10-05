@@ -4,8 +4,8 @@
 	grid-template-rows: repeat(2,1fr);
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
-	row-gap:8px;
-	color:#464646;
+	row-gap:0.5em;
+	color:var(--preto);
 }
 
 .produto__imagem{
@@ -17,7 +17,7 @@
 	grid-column:1/3;
 	display:flex;
 	flex-direction: column;
-	gap:8px;
+	gap:0.5em;
 }
 
 
@@ -32,7 +32,7 @@
 @media screen and (min-width: 768px){
 	
 	.produto{
-		column-gap: 8px;
+		column-gap: 0.5em;
 	}
 
 	.produto__imagem{

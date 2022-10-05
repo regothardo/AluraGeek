@@ -1,6 +1,6 @@
 
 .login__principal{
-	background-color: #e5e5e5;
+	background-color: var(--sessao-principal);
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	grid-template-rows: 7rem auto 7rem;
@@ -29,8 +29,8 @@
 	height: 40px;
 	padding:12px 34px;
 	align-self: center;
-	background-color: #2a7ae4;
-	color:#ffffff;
+	background-color: var(--fonte-botao-contorno);
+	color:var(--branco);
 }
 
 @media screen and (min-width: 1440px){
